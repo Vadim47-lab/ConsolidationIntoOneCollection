@@ -8,10 +8,10 @@ namespace ConsolidationIntoOneCollection
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.CreateCollection();
+            program.Work();
         }
 
-        private void CreateCollection()
+        private void Work()
         {
             Console.WriteLine(" Добро пожаловать в программу: Объединение в одну коллекцию!");
 
