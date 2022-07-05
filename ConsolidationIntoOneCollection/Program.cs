@@ -15,8 +15,8 @@ namespace ConsolidationIntoOneCollection
         {
             Console.WriteLine(" Добро пожаловать в программу: Объединение в одну коллекцию!");
 
-            List<string> firstGroupAthletes = new List<string> { "Степанов", "Иванов", "Петров", "Сидоров", "Николаев", "Александров", "Владиславов" };
-            List<string> secondGroupAthletes = new List<string> { "Гоголев", "Рубленов", "Сергеев", "Кузнецов", "Николаев", "Александров", "Владиславов" };
+            string[] firstGroupAthletes = { "Степанов", "Иванов", "Петров", "Сидоров", "Николаев", "Александров", "Владиславов" };
+            string[] secondGroupAthletes = { "Гоголев", "Рубленов", "Сергеев", "Кузнецов", "Николаев", "Александров", "Владиславов" };
             HashSet<string> listCollection = new HashSet<string>();
 
             Console.WriteLine("\n Вывод массива первой группы спортсменов = ");
@@ -36,16 +36,19 @@ namespace ConsolidationIntoOneCollection
 
             Console.WriteLine("\n\n Вывод массива спортсменов, которые объединены в одну коллекцию  = ");
 
-            ShowDescription(listCollection);
+            foreach (var word in listCollection)
+            {
+                Console.Write(" " + word + ",");
+            }
 
             Console.WriteLine("");
         }
 
-        private void ShiftCollection(List<string> firstGroupAthletes, List<string> secondGroupAthletes, HashSet<string> listCollection)
+        private void ShiftCollection(string[] firstGroupAthletes, string[] secondGroupAthletes, HashSet<string> listCollection)
         {
-            for (int i = 0; i < firstGroupAthletes.Count; i++)
+            for (int i = 0; i < firstGroupAthletes.Length; i++)
             {
-                for (int j = 0; j < secondGroupAthletes.Count; j++)
+                for (int j = 0; j < secondGroupAthletes.Length; j++)
                 {
                     if (firstGroupAthletes[i] != secondGroupAthletes[j])
                     {
@@ -55,17 +58,9 @@ namespace ConsolidationIntoOneCollection
             }
         }
 
-        private void ShowDescription(List<string> list)
+        private void ShowDescription(string[] list)
         {
             foreach (var word in list)
-            {
-                Console.Write(" " + word + ",");
-            }
-        }
-
-        private void ShowDescription(HashSet<string> listCollection)
-        {
-            foreach (var word in listCollection)
             {
                 Console.Write(" " + word + ",");
             }
