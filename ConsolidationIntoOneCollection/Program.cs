@@ -32,6 +32,17 @@ namespace ConsolidationIntoOneCollection
                 listCollection.Add(word);
             }
 
+            ShiftCollection(secondGroupAthletes, listCollection);
+
+            Console.WriteLine("\n\n Вывод массива спортсменов, которые объединены в одну коллекцию  = ");
+
+            ShowDescription(listCollection);
+
+            Console.WriteLine("");
+        }
+
+        private void ShiftCollection(List<string> secondGroupAthletes, List<string> listCollection)
+        {
             for (int i = 0; i < secondGroupAthletes.Count; i++)
             {
                 if (listCollection[i] != secondGroupAthletes[i])
@@ -39,12 +50,6 @@ namespace ConsolidationIntoOneCollection
                     listCollection.Add(secondGroupAthletes[i]);
                 }
             }
-
-            Console.WriteLine("\n\n Вывод массива спортсменов, которые объединены в одну коллекцию  = ");
-
-            ShowDescription(listCollection);
-
-            Console.WriteLine("");
         }
 
         private void ShowDescription(List<string> list)
