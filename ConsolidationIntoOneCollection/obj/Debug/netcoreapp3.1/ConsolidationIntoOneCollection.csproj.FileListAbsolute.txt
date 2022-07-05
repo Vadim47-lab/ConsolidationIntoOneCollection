@@ -1,0 +1,14 @@
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.exe
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.deps.json
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.runtimeconfig.json
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.runtimeconfig.dev.json
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.dll
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\bin\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.pdb
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.csproj.AssemblyReference.cache
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.AssemblyInfoInputs.cache
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.AssemblyInfo.cs
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.csproj.CoreCompileInputs.cache
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.dll
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.pdb
+C:\Junior\Курс С# - проекты по С# 2 часть\ConsolidationIntoOneCollection\ConsolidationIntoOneCollection\obj\Debug\netcoreapp3.1\ConsolidationIntoOneCollection.genruntimeconfig.cache
